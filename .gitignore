@@ -1,0 +1,6 @@
+vendor/
+composer.lock
+*.zip
+examples/
+.DS_Store
+.vscode/

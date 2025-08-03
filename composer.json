@@ -1,0 +1,28 @@
+{
+	"name": "albedev/ddl-artisan",
+	"description": "Generate Laravel migrations from DDL",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "license": "MIT-NR",
+	"type": "library",
+	"require": {
+		"php": "^8.0",
+        "illuminate/support": ">=8.0",
+		"phpmyadmin/sql-parser": "^5.11"
+	},
+	"require-dev": {
+		"illuminate/console": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"DdlArtisan\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"DdlArtisan\\Laravel\\LaravelServiceProvider"
+			]
+		}
+	}
+}
