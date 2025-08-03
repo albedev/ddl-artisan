@@ -3,7 +3,7 @@
 	"description": "Generate Laravel migrations from DDL",
     "version": "1.0.0",
     "minimum-stability": "stable",
-    "license": "MIT-NR",
+    "license": "proprietary",
 	"type": "library",
 	"require": {
 		"php": "^8.0",
